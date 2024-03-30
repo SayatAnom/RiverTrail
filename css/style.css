@@ -1,0 +1,202 @@
+/* defalut */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+}
+.primary-tittle{
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Squada One", sans-serif;
+}
+.sub-tittle {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: "Kanit", sans-serif;
+    
+}
+
+/* top bar */
+
+.top-bar{
+    background-color: green;
+}
+
+
+
+
+.top-bar p {
+    color:#fff ;
+
+}
+.top-bar a{
+    color: rgb(207, 154, 154);
+    transition: 0.3s;
+}
+.top-bar a:hover{
+    color: #fff;
+    font-weight:600;
+}
+/* top header */
+.top-header ul li a{
+    font-size: 14px;
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+.top-header ul li a:hover{
+    color: green;
+    font-weight: 600;
+}
+/* main-nav */
+
+.main-nav ul li {
+border-right: 1px solid #dee2e6;
+}
+.main-nav ul li:last-child {
+border-right: none;
+}
+
+.dropdown {
+    position: unset !important;
+}
+.dropdown-menu.show {
+display:flex;
+justify-content:center;
+
+
+}
+.dropdown-menu.show li{
+    border: none;
+    
+}
+/* banner */
+.banner {
+    background-image: url(../Media/photo/Banner.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 100px;
+    
+    
+}
+/* featured blog */
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: unset !important;
+}
+.card-img-overlay a p{
+color: #fff !important;
+}
+/* brands */
+.page-tittle h3 {
+    font-size:24px;
+    color:gray;
+    font-family: "Squada One", sans-serif;
+}
+.brand-images ul li img {
+    filter: grayscale(1) contrast(0.3);
+
+}
+.splide__arrows button {
+background-color: transparent;
+}
+.splide__arrows button i{
+    font-size: 26px;
+    color: gray;
+
+}
+/* products */
+.products .card-tittle{
+    font-family:"Kanit", sans-serif;
+    font-size: 30px;
+    color:gray;
+}
+    
+.products .card-text{
+    font-family:"Squada One", sans-serif ;
+    font-size: 20px;
+    color: gray;
+}
+
+
+.products span {
+    font-size: 18px;
+    color: gray; 
+}
+.products i {
+    font-size: 16px;
+    color: gray; 
+}
+/* footer blog */
+.final-blog {
+    top: 0 !important;
+}
+.footer-blog .card-tittle{
+        font-family:"Kanit", sans-serif;
+        font-size: 30px;
+        color: #fff;
+}
+/* join club */
+.join-club {
+    background-image: url(../Media/photo/view.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.join-club .row {
+    padding: 0 150px;
+}
+/*  footer */
+footer {
+    background-color: rgb(238, 228, 228)
+}
+
+footer h3 {
+    color: gray;
+    font-size: 20px;
+    font-family:"Squada One", sans-serif ;
+}
+footer ul li a{
+    color: gray;
+}
+/* payment */
+.payment h4 {
+    font-size:26px ;
+    font-family:"Squada One", sans-serif ;
+    color:gray;
+    
+}
+.payment p {
+    font-size:16px ;
+    font-family:"Kanit", sans-serif;
+    color:gray;
+    
+}
+/* copyright */
+.copyright {
+    background-color: green;
+}
+.copyright ul li a {
+    color: #fff;
+
+}
+.copyright span, .copyright a {
+    color: #fff; 
+    font-size: 13px;
+}
+
+
